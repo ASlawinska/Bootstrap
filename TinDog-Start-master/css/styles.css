@@ -66,11 +66,16 @@ font-weight: bold;
 .title-image{
   max-width: 60%;
   transform: rotate(30deg);
+  position: absolute;
 }
 /*Section features*/
 #features{
   text-align: center;
   padding: 30px 10px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
 }
 .box-feature{
   padding: 7% 1.5%;
