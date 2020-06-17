@@ -6,6 +6,7 @@ body{
   background-color: #ff4c68;
   color: #fff;
   font-size: 3rem;
+  text-align: center;
 }
 h1{
 font-family: 'Montserrat', sans-serif;
@@ -34,7 +35,7 @@ p{
   color: #8f8f8f;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /*Navigation bar*/
@@ -65,17 +66,13 @@ font-weight: bold;
 /*Title image*/
 .title-image{
   max-width: 60%;
-  transform: rotate(30deg);
-  position: absolute;
+  right: 25%;
 }
 /*Section features*/
 #features{
   text-align: center;
   padding: 30px 10px;
   background-color: #fff;
-  position: relative;
-  z-index: 1;
-
 }
 .box-feature{
   padding: 7% 1.5%;
@@ -121,8 +118,18 @@ margin:20px;
   padding: 2% 3%;
   text-align: center;
 }
-
-
+@media (min-width: 1028px) {
+  .title-image {
+    position: absolute;
+    transform: rotate(30deg);
+  }
+  #title{
+    text-align: left;
+  }
+#features{
+      position: relative;
+  }
+}
 /*
 
 font-family: 'Montserrat', sans-serif;
